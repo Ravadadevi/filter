@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <STYLE>
+                *{
+            margin: 0;
+            padding: 0;
+            box-sizing: 0;
+            text-decoration: none;
+        }
+
+  .header{
+       width:100%;
+       height: 150vh;
+      background-position: center;   
+      background-image:url("wallpaper.jpg");  
+      background-size: cover;
+    
+}
+     
+.navbar{
+
+display: flex;
+justify-content: space-between;
+padding: 10px 10%;
+font-size: 20px;    
+
+}
+.menu{
+display: flex;
+text-align: center;
+gap:30px;
+}
+.menu  li{
+list-style:none;
+margin:3px; 
+}
+
+.type{
+        color:rgb(98, 43, 226);
+        margin-top: 5%;
+        font-size: 20px;   
+        font-family:'Times New Roman', Times, serif ;   
+}
+button{
+    color:red;
+    width: 100px;
+    height:50px;
+    margin-top: 20px;
+    background-color: green;
+    text-align: center;
+    margin-left: 800px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+button:hover{
+    background-color: yellow;
+}
+.img{
+    margin-left: 15%;
+    margin-top:50px;
+}
+#brightness{filter:invert(70%);}
+#opacity{filter:opacity(50%);}  
+#huerotate{filter:hue-rotate(150deg)}
+#brightness{filter:brightness(100%);}
+#drop-shadow{filter: drop-shadow(8px 8px violet);}
+#sepia {filter: sepia(80%);}
+
+
+    </STYLE>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <h3>IMAGES</h3>
+             
+             <div class="menu">
+                
+                    <li><a href="#" >HOME</span></a></li>
+                    <li><a href="#" >ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </div>
+                </nav>
+        <div class="type">
+            <h2>DIFFERENT IMAGES</h2>
+            <P>Chasing new horizons and loving every moment.<BR>
+                Every stop is a new adventure waiting to happen.<br>
+                Exploring the world, one city at a time.<br>
+                Traveling far and wide for unforgettable<br>
+                Between vacations, many daydream about what adventures the next trip holds.<br>
+                You can spend your days switching back and forth from looking at your favorite travel<br>
+                photos to trying to go about your day to day life. But a few friendly<br>
+                reminders that the next adventure is closer than you think can help you
+                put your wanderlust to rest. And one of the best distractions comes with<br>
+                 this list of travel quotes. Pick your favorite from the collection below
+                and use it to inspire your next trip.  
+                </P>
+                <button>click</button>
+        </div>
+        <div class="img">
+       <img  id="brightness" src="wall2.jpg">
+       <img id="opacity" src="computer.jpg"><br>
+       <img id="huerotate" src="charminar1.jpg">
+       <img id="brightness" src="icecream2.jpg">
+       <img id="sepia" src="side-pic1.jpg">
+       <img  id="drop-shadow" src="coffe1.jpg">
+       </div>
+    
+                    
+    
+</body>
+</html>
